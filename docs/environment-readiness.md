@@ -13,6 +13,8 @@
 | Managed Environment | No |
 | Expiry | Not displayed |
 | Environment URL | https://orgf853e839.crm4.dynamics.com |
+| Entitlement | Power Apps Community |
+| VNEXT Assignment | Confirmed |
 
 ## Identity
 
@@ -35,19 +37,19 @@
 ## Unresolved Dependencies
 
 - Confirm environment continuity and expiry with VNEXT.
-- Confirm approved development environment and licensing.
-- Confirm availability of Custom APIs and required Dataverse features.
+- Verify actual availability and publishing rights for required Dataverse and Power Platform features.
 - Confirm Power Automate and Approvals connector availability.
 - Confirm Copilot Studio agent publishing rights.
 - Confirm Power BI licensing and Service Viewer access.
 - Confirm company-approved app registrations and credentials.
 - Confirm actual role identities and Business Unit structure.
 
-- VNEXT confirmed the personal Developer environment and account as the assigned development environment.
+## Environment Assignment
+
+VNEXT confirmed the personal Developer environment and account as the assigned development environment.
 
 ## Important
 
-A visible feature or a successful maker-portal login does not
-prove that a component can be published or executed.
+A visible feature or a successful maker-portal login does not prove that a component can be published or executed.
 
 Verify actual feature availability before relying on it.
