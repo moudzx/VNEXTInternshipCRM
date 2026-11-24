@@ -43,6 +43,8 @@
 - Confirm company-approved app registrations and credentials.
 - Confirm actual role identities and Business Unit structure.
 
+- VNEXT confirmed the personal Developer environment and account as the assigned development environment.
+
 ## Important
 
 A visible feature or a successful maker-portal login does not
