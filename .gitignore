@@ -1,0 +1,29 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pfx
+*.p12
+*.key
+
+# Windows and editor files
+Thumbs.db
+Desktop.ini
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Build outputs
+bin/
+obj/
+node_modules/
+dist/
+coverage/
+TestResults/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
