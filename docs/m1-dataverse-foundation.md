@@ -1,4 +1,4 @@
-﻿# M1 — Dataverse Foundation
+# M1 — Dataverse Foundation
 
 ## 1. Objective
 
@@ -177,17 +177,15 @@ corresponding columns or relationships are visible.
 
 ## 10. M1 Completion Status
 
-The custom schema, native extensions, lookup relationships, alternate
-keys, ownership configuration and auditing setup have been established.
+M1 is formally accepted. The custom schema, native extensions, lookup
+relationships, alternate keys, ownership configuration and auditing setup
+have been established.
 
-M1 is not yet formally marked complete. Remaining work includes:
+The following documented limitations remain as follow-up items:
 
-- Resolving or documenting the Status Reason metadata deviations.
-- Recording the native metadata verification limitations.
-- Reviewing the final schema against the SRS.
-- Capturing evidence and committing the M1 documentation and solution
-  source to Git.
+- Lead and Opportunity Status Reason metadata deviations.
+- Native relationship and activity metadata verification.
+- Active-only Product SKU uniqueness enforcement.
 
 Business operations, server-side validation, Custom APIs, approval
 processing and integration tests belong to subsequent milestones.
-
