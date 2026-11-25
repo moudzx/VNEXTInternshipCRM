@@ -1,0 +1,9 @@
+<dvtablesearchentity dvtablesearchentityid="517e2e19-5ae8-f111-84e8-e4fade3741fa">
+  <dvtablesearch>
+    <dvtablesearchid>4b7e2e19-5ae8-f111-84e8-e4fade3741fa</dvtablesearchid>
+  </dvtablesearch>
+  <entitylogicalname>vn_approvalrequest</entitylogicalname>
+  <iscustomizable>1</iscustomizable>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearchentity>

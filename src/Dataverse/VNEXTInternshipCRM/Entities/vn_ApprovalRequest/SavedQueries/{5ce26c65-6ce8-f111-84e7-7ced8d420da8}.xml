@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{5ce26c65-6ce8-f111-84e7-7ced8d420da8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vn_name" select="1" icon="1" preview="1">
+        <row name="result" id="vn_approvalrequestid">
+          <cell name="vn_name" width="200" />
+          <cell name="vn_opportunity" width="109" />
+          <cell name="vn_total" width="100" />
+          <cell name="vn_maximumdiscount" width="153" />
+          <cell name="vn_approver" width="100" />
+          <cell name="vn_submittedon" width="119" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="vn_approvalrequest">
+          <attribute name="vn_name" />
+          <attribute name="vn_approvalrequestid" />
+          <attribute name="vn_opportunity" />
+          <attribute name="vn_total" />
+          <attribute name="vn_maximumdiscount" />
+          <attribute name="vn_approver" />
+          <attribute name="vn_submittedon" />
+          <order attribute="vn_submittedon" descending="false" />
+          <filter type="and">
+            <condition attribute="vn_result" operator="eq" value="100000000" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Pending Deal Approvals" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{74341725-076f-4e51-93dc-ab0a1b762878}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{dc367bde-1cf8-4aba-abb3-844984cdc43d}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{d894b483-ec21-47dd-92f5-22d46ef72490}">
+          <labels>
+            <label description="Qualify" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{e6d3a57a-ff04-192b-b04b-7a9e33d0b797}" name="StageStep3_section1" labelid="{b83fd0ee-ed74-4abb-9443-7e230acac4f9}">
+                  <labels>
+                    <label description="Qualify" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0522df7e-e860-43f2-be9f-dd36e2d41b5a}" showlabel="true" visible="true" labelid="{99753720-dd80-47bd-8af8-ec34684f682a}">
+                        <labels>
+                          <label description="Deal Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_vn_opportunity_vn_opportunitysalesprocess:vn_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vn_name" disabled="false" relationship="bpf_vn_opportunity_vn_opportunitysalesprocess" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{e77f5cf0-7b0e-4b88-bcec-f45705a7cfa3}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{16c8cdc2-337d-4a61-9dce-7567ea775ce3}">
+          <labels>
+            <label description="Develop" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{6e827ae9-9d65-06a8-4f28-60cea8807887}" name="StageStep7_section1" labelid="{957da85f-7de1-4dc5-b8a5-8649d4030b44}">
+                  <labels>
+                    <label description="Develop" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{89a503d5-b7f1-4e34-b8fa-df05c7a71678}" showlabel="true" visible="true" labelid="{55f5cd64-e6f0-42e4-9c54-a95acb0ff3a8}">
+                        <labels>
+                          <label description="Need" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_vn_opportunity_vn_opportunitysalesprocess:vn_need" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vn_need" disabled="false" relationship="bpf_vn_opportunity_vn_opportunitysalesprocess" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{0103458a-9eae-47e4-adee-10df924f11d4}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{6a714d27-9810-40dd-a456-bbe8108b29bb}">
+          <labels>
+            <label description="Propose" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{7ca7551e-b9af-7aa9-14d0-b9a4ad6e3c5f}" name="StageStep11_section1" labelid="{759f6d8a-12a8-468c-9935-ad3d74960529}">
+                  <labels>
+                    <label description="Propose" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5313309e-c290-4061-a096-d07491e6dc4e}" showlabel="true" visible="true" labelid="{35017e63-2e5c-480e-9759-e07af5664a98}">
+                        <labels>
+                          <label description="Proposal Summary" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_vn_opportunity_vn_opportunitysalesprocess:vn_proposalsummary" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vn_proposalsummary" disabled="false" relationship="bpf_vn_opportunity_vn_opportunitysalesprocess" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{2884d336-4b87-4519-9663-6c9f894ed38d}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{884b897a-fe9b-4acb-b03b-c9098794fe72}">
+          <labels>
+            <label description="Close" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{dacb6f09-ff62-e4f3-021c-cb348713b3d0}" name="StageStep15_section1" labelid="{97bfee86-b827-426a-8749-923afafce548}">
+                  <labels>
+                    <label description="Close" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{176f3413-969e-4f2c-a27e-06da8decfc00}" showlabel="true" visible="true" labelid="{37d651b2-63c6-4ad4-92dd-9d11a81339fd}">
+                        <labels>
+                          <label description="Close Comments" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_vn_opportunity_vn_opportunitysalesprocess:vn_closecomments" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="vn_closecomments" disabled="false" relationship="bpf_vn_opportunity_vn_opportunitysalesprocess" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

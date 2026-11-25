@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{d7524625-6ae8-f111-84e7-7ced8d420da8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vn_name" select="1" icon="1" preview="1">
+        <row name="result" id="vn_opportunityid">
+          <cell name="vn_name" width="200" />
+          <cell name="vn_account" width="100" />
+          <cell name="ownerid" width="100" />
+          <cell name="vn_stage" width="100" />
+          <cell name="vn_total" width="100" />
+          <cell name="vn_probability" width="103" />
+          <cell name="vn_expectedclosedate" width="158" />
+          <cell name="vn_nextfollowupdate" width="159" />
+          <cell name="vn_lastprogresson" width="137" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="vn_opportunity">
+          <attribute name="vn_name" />
+          <attribute name="vn_opportunityid" />
+          <attribute name="vn_account" />
+          <attribute name="ownerid" />
+          <attribute name="vn_stage" />
+          <attribute name="vn_total" />
+          <attribute name="vn_probability" />
+          <attribute name="vn_expectedclosedate" />
+          <attribute name="vn_nextfollowupdate" />
+          <attribute name="vn_lastprogresson" />
+          <order attribute="vn_expectedclosedate" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <condition attribute="statuscode" operator="eq" value="1" />
+            <filter type="or">
+              <condition attribute="vn_expectedclosedate" operator="olderthan-x-days" value="1" />
+              <condition attribute="vn_lastprogresson" operator="olderthan-x-days" value="14" />
+              <condition attribute="vn_nextfollowupdate" operator="olderthan-x-days" value="1" />
+            </filter>
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Team At-risk Deals" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

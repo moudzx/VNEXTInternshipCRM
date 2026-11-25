@@ -1,0 +1,11 @@
+<dvtablesearch dvtablesearchid="4b7e2e19-5ae8-f111-84e8-e4fade3741fa">
+  <appmoduleuniquename>vn_VNEXTCRM</appmoduleuniquename>
+  <iscustomizable>1</iscustomizable>
+  <m365appmoduleid>
+    <uniquename>vn_VNEXTCRM</uniquename>
+  </m365appmoduleid>
+  <name>M365_Primary_model_vn_VNEXTCRM</name>
+  <searchtype>0</searchtype>
+  <statecode>1</statecode>
+  <statuscode>2</statuscode>
+</dvtablesearch>

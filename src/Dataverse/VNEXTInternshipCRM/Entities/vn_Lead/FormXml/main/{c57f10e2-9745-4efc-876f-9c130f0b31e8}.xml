@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c57f10e2-9745-4efc-876f-9c130f0b31e8}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{E1F7BBF9-E9A2-450F-9649-B2C6746020B7}" IsUserDefined="1" expanded="true" name="General Section">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Lead Overview Section" id="45e596ad-47eb-41e5-86d4-eff11e3c3310" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Lead Overview" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{5f45ef73-4f75-4d22-9d5a-5fd571614450}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fe9661ff-f4dd-46f5-8399-8ef237ba45d8}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f0d5696-3989-4121-911b-a7126a63e49f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Source" languagecode="1033" />
+                        </labels>
+                        <control id="vn_source" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="vn_source" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{225d87f3-4812-4b4f-8a93-7bb24db677c9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Rating" languagecode="1033" />
+                        </labels>
+                        <control id="vn_rating" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="vn_rating" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{156b3d62-83e3-4a18-8e9f-5967be23626f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Topic" languagecode="1033" />
+                        </labels>
+                        <control id="vn_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vn_name" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{DCF1FC37-FBC1-425B-9D23-90A20F852F0E}" visible="true" name="Contact Information Section">
+                  <labels>
+                    <label description="Contact Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{780E0279-C7EA-4E67-B9A0-6C01D91BA476}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="vn_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vn_Name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d361505c-2f6c-47cf-b140-ca6875d89859}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="vn_firstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vn_firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{71c7483a-cd08-495d-991b-86cceea50c49}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Company Name" languagecode="1033" />
+                        </labels>
+                        <control id="vn_companyname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vn_companyname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5c3aa1e8-522b-4c77-89f3-4db95ac208ac}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="vn_email" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="vn_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aa6e705b-2afc-4f54-8045-d095f0a87fbb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Phone" languagecode="1033" />
+                        </labels>
+                        <control id="vn_phone" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vn_phone" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Qualification Assessment Section" id="16e377b9-c591-46d5-9214-df388ced9993" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Qualification Assessment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{9c3e22c4-01d3-450c-bc23-3fb9244bbdb4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Need" languagecode="1033" />
+                        </labels>
+                        <control id="vn_need" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="vn_need" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b7bb4f20-c8df-4008-ba89-069e58303766}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Next Step" languagecode="1033" />
+                        </labels>
+                        <control id="vn_nextstep" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vn_nextstep" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3ab808bb-ebc7-4af8-b46a-f312c36c8945}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Budget" languagecode="1033" />
+                        </labels>
+                        <control id="vn_budget" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="vn_budget" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{50cf0473-7bcb-4f3c-ab78-cd90b375d9f3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Buying Target Date" languagecode="1033" />
+                        </labels>
+                        <control id="vn_buyingtargetdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="vn_buyingtargetdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{43d755bc-bae4-40bf-906c-07cb604140b4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Next Follow-up Date" languagecode="1033" />
+                        </labels>
+                        <control id="vn_nextfollowupdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="vn_nextfollowupdate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Outcome Section" id="360813ec-f9ba-4fcc-84fd-e0ea05ab31b2" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Outcome" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{76b47819-6cda-4db2-9f94-608d205f7976}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="vn_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vn_account" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a31fb09-6c24-4fc4-9e27-abe31bf2c4ef}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="vn_contact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vn_contact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f9edbcc1-8b9b-4a92-94b4-b214313312f0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Opportunity" languagecode="1033" />
+                        </labels>
+                        <control id="vn_opportunity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vn_opportunity" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4723e8b5-e5bd-4aff-a083-bb158642695f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Qualified On" languagecode="1033" />
+                        </labels>
+                        <control id="vn_qualifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="vn_qualifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a60e3f51-10f1-4c50-8281-1905b2fda89a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Disqualified On" languagecode="1033" />
+                        </labels>
+                        <control id="vn_disqualifiedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="vn_disqualifiedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7dec05ee-a395-47bb-b2be-f9c7eaba9dea}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Disqualification Reason" languagecode="1033" />
+                        </labels>
+                        <control id="vn_disqualificationreason" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="vn_disqualificationreason" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{471f9db2-46f9-430c-96a8-329cd5a852ea}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Disqualification Comments" languagecode="1033" />
+                        </labels>
+                        <control id="vn_disqualificationcomments" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="vn_disqualificationcomments" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{03fad7cc-f557-4e6d-ba44-8c6d7210477a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Duplicate Of" languagecode="1033" />
+                        </labels>
+                        <control id="vn_duplicateof" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vn_duplicateof" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Activity History Section" id="e16205d0-a268-40b3-9187-ccbed76f9a54" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Activity History" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{c2cb659a-5e81-4488-a935-a92de680e020}" rowspan="15" colspan="1">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{59776666-793a-490d-9098-9284d1d3f21c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a1c9122e-bbff-4d9b-9ebd-5f3cf593c837}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{868296e8-3fab-47cf-95a5-53cd2e6b5294}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9c92e6d7-2b19-4912-b5c0-a74a9c64c896}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{ec31fc43-cd7d-434a-a734-6571aabfb68c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{be06bd84-7563-4822-85c5-dafedbadbd1c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0d15588a-706f-44e3-9fe2-54d8afa65fbc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9cc1bf60-b295-4186-bd7a-b0373ef3cfab}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
