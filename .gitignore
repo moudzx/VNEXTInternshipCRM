@@ -27,3 +27,6 @@ TestResults/
 *.log
 *.tmp
 *.bak
+
+# Generated solution exports
+exports/*.zip
