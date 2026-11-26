@@ -1,0 +1,19 @@
+<customapi uniquename="vn_TransitionOpportunity">
+  <allowedcustomprocessingsteptype>0</allowedcustomprocessingsteptype>
+  <bindingtype>1</bindingtype>
+  <boundentitylogicalname>vn_opportunity</boundentitylogicalname>
+  <description default="Transition Opportunity">
+    <label description="Transition Opportunity" languagecode="1033" />
+  </description>
+  <displayname default="Transition Opportunity">
+    <label description="Transition Opportunity" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <isfunction>0</isfunction>
+  <isprivate>0</isprivate>
+  <name>TransitionOpportunity</name>
+  <plugintypeid>
+    <plugintypeexportkey>07af0756-8622-424d-8fbb-78b3da8963a0</plugintypeexportkey>
+  </plugintypeid>
+  <workflowsdkstepenabled>0</workflowsdkstepenabled>
+</customapi>

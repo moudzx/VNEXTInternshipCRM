@@ -11,6 +11,7 @@
   <optionsets />
   <Dashboards />
   <CustomControls />
+  <SolutionPluginAssemblies />
   <AppModuleSiteMaps />
   <AppModules />
   <EntityDataProviders />

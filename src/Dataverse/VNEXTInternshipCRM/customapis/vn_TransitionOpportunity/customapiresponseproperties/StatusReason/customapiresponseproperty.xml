@@ -1,0 +1,11 @@
+<customapiresponseproperty uniquename="StatusReason">
+  <description default="StatusReason">
+    <label description="StatusReason" languagecode="1033" />
+  </description>
+  <displayname default="StatusReason">
+    <label description="StatusReason" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <name>StatusReason</name>
+  <type>7</type>
+</customapiresponseproperty>

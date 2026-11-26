@@ -13,8 +13,13 @@
   <EntityRelationship Name="lk_vn_opportunity_modifiedby" />
   <EntityRelationship Name="lk_vn_opportunityline_createdby" />
   <EntityRelationship Name="lk_vn_opportunityline_modifiedby" />
+  <EntityRelationship Name="lk_vn_opportunitysalesprocess_activestageid" />
+  <EntityRelationship Name="lk_vn_opportunitysalesprocess_createdby" />
+  <EntityRelationship Name="lk_vn_opportunitysalesprocess_modifiedby" />
+  <EntityRelationship Name="lk_vn_opportunitysalesprocess_processid" />
   <EntityRelationship Name="lk_vn_product_createdby" />
   <EntityRelationship Name="lk_vn_product_modifiedby" />
+  <EntityRelationship Name="organization_vn_opportunitysalesprocess" />
   <EntityRelationship Name="organization_vn_product" />
   <EntityRelationship Name="owner_vn_approvalrequest" />
   <EntityRelationship Name="owner_vn_lead" />

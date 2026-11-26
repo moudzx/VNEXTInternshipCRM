@@ -1,0 +1,11 @@
+<customapiresponseproperty uniquename="CorrelationId">
+  <description default="CorrelationId">
+    <label description="CorrelationId" languagecode="1033" />
+  </description>
+  <displayname default="CorrelationId">
+    <label description="CorrelationId" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <name>CorrelationId</name>
+  <type>10</type>
+</customapiresponseproperty>

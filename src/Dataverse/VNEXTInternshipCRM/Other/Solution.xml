@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="VNEXT Internship CRM implementation" languagecode="1033" />
     </Descriptions>
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.1</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>VNEXT</UniqueName>
@@ -90,7 +90,7 @@
       <RootComponent type="1" schemaName="vn_lead" behavior="0" />
       <RootComponent type="1" schemaName="vn_opportunity" behavior="0" />
       <RootComponent type="1" schemaName="vn_opportunityline" behavior="0" />
-      <RootComponent type="1" schemaName="vn_opportunitysalesprocess" behavior="1" />
+      <RootComponent type="1" schemaName="vn_opportunitysalesprocess" behavior="0" />
       <RootComponent type="1" schemaName="vn_product" behavior="0" />
       <RootComponent type="20" id="{31686ed5-b1e8-f111-84e7-7ced8d420da8}" behavior="0" />
       <RootComponent type="20" id="{ed5a44d5-b2e8-f111-84e7-7ced8d420da8}" behavior="0" />
@@ -107,6 +107,7 @@
       <RootComponent type="9" schemaName="vn_leadsource" behavior="0" />
       <RootComponent type="9" schemaName="vn_opportunitylossreason" behavior="0" />
       <RootComponent type="9" schemaName="vn_opportunitystage" behavior="0" />
+      <RootComponent type="91" id="{bbc736dd-e57c-47a6-aa28-747a24c6a9e9}" schemaName="VNEXTInternshipCRM.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b02e1d50eca68fb2" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
@@ -116,10 +117,6 @@
       <MissingDependency>
         <Required type="1" schemaName="systemuser" displayName="SystemUser" parentSchemaName="" solution="msdyn_PowerAdminSettingsEmail (2.2.3602.2)" />
         <Dependent type="1" schemaName="systemuser" displayName="SystemUser" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="1" schemaName="vn_opportunitysalesprocess" displayName="Opportunity Sales Process" solution="Active" />
-        <Dependent type="1" schemaName="vn_opportunitysalesprocess" displayName="Opportunity Sales Process" />
       </MissingDependency>
       <MissingDependency>
         <Required type="2" schemaName="accountnumber" displayName="accountnumber" parentSchemaName="account" solution="System (5.0)" />

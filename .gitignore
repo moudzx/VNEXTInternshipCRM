@@ -1,32 +1,45 @@
-﻿# Environment variables and secrets
-.env
-.env.*
-!.env.example
-secrets/
-*.pfx
-*.p12
-*.key
+﻿
+# Build outputs
+**/bin/
+**/obj/
+**/publish/
+*.dll
+*.pdb
 
-# Windows and editor files
-Thumbs.db
-Desktop.ini
+# Keep the plugin assembly included in the exported Dataverse solution
+!src/Dataverse/VNEXTInternshipCRM/PluginAssemblies/**/*.dll
+
+# Visual Studio
 .vs/
-.vscode/
 *.user
 *.suo
 
-# Build outputs
-bin/
-obj/
-node_modules/
-dist/
-coverage/
-TestResults/
+# VS Code
+.vscode/
 
-# Temporary files and logs
+# NuGet
+packages/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.*.local.json
+
+# Logs and temporary files
 *.log
 *.tmp
 *.bak
 
-# Generated solution exports
-exports/*.zip
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives and temporary exports
+*.zip
+/exports/
+
+# Local Dataverse backup
+/src/Dataverse/VNEXTInternshipCRM_backup/

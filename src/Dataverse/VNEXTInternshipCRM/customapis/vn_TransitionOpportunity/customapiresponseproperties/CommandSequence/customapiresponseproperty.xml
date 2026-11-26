@@ -1,0 +1,11 @@
+<customapiresponseproperty uniquename="CommandSequence">
+  <description default="CommandSequence">
+    <label description="CommandSequence" languagecode="1033" />
+  </description>
+  <displayname default="CommandSequence">
+    <label description="CommandSequence" languagecode="1033" />
+  </displayname>
+  <iscustomizable>1</iscustomizable>
+  <name>CommandSequence</name>
+  <type>7</type>
+</customapiresponseproperty>
